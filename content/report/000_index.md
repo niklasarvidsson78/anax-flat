@@ -4,4 +4,4 @@ titleBreadcrumb: Rapporter
 Index
 ===============================
 
-Välja del genom att klicka på länkarna till vänster.
+Alla mina rapporter under kursens gång kommer att hamna på denna sida.

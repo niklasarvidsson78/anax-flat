@@ -22,11 +22,16 @@ return [
             "favicon"       => "img/favicon/stark2.png",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css"],
+            //"stylesheets" => ["css/default.min.css"],
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ],
             "styleInline" => null,
 
             // JavaScript
-            "javascripts" => [],
+            //"javascripts" => [],
+            "javascripts" => ["js/responsive-menu.js"],
         ],
     ],
 
@@ -61,14 +66,14 @@ return [
             ],
             "sort" => 2
         ],
-/*
+
         [
             "region" => "profile",
             "template" => "default/navbar-max",
             "data" => [],
             "sort" => -1
         ],
-*/
+
         [
             "region" => "navbar2",
             "template" => "default/navbar",
@@ -85,8 +90,8 @@ return [
                         "contentRoute" => "block/footer-col-1",
                     ],
                     [
-                        //"contentRoute" => "block/footer-col-2",
-                        "contentRoute" => "block/byline",
+                        "contentRoute" => "block/footer-col-2",
+                        //"contentRoute" => "block/byline",
                     ],
                     [
                         "contentRoute" => "block/footer-col-2",

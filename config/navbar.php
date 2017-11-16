@@ -14,19 +14,19 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "report" => [
+            "Index" => [
                 "text"  => t("Hem"),
                 "url"   => $this->di->get("url")->create("index"),
                 "title" => t("Hem"),
                 "mark-if-parent" => true,
             ],
 
-            "about" => [
+            "About" => [
                 "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("Om sidan")
             ],
-            "test" => [
+            "Report" => [
                 "text"  => t("Rapporter"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Rapporter"),
@@ -37,7 +37,7 @@ return [
 
 
 
-/*
+
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
@@ -49,21 +49,26 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "report" => [
-                "text"  => t("Report"),
-                "url"   => $this->di->get("url")->create("report"),
+            "Index" => [
+                "text"  => t("Hem"),
+                "url"   => $this->di->get("url")->create("index"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
             ],
 
-            "about" => [
-                "text"  => t("About"),
+            "About" => [
+                "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),
+                "title" => t("About this website")
+            ],
+
+            "Report" => [
+                "text"  => t("Rapporter"),
+                "url"   => $this->di->get("url")->create("report"),
                 "title" => t("About this website")
             ],
         ],
     ],
-*/
 
 
     /**

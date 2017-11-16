@@ -17,5 +17,4 @@ Just nu läser jag ett kurspaket vid Blekinge Tekninska Högskola (BTH) som hete
 
 Denna sida som är en del av det andra momentet av detta paket som heter **Teknisk webbdesign och användbarhet**, eller *Design* som det kort kallas, och kommer att förändras i takt med att jag lär mig nya saker. Så gör gärna ett besök med jämna mellanrum för att se hur den utvecklas.
 
-Ha det bra och förhoppningsvis på återseende,  
-/Niklas
+Ha det bra och förhoppningsvis på återseende.
