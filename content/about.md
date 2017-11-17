@@ -10,10 +10,10 @@ Denna del som är den andra i kurspaketet heter **Teknisk webbdesign och använd
 
 Vill du veta mer om kursen så gå in på [dbwebb course design](http://dbwebb.se/design).
 
-Koden till denna sidan är även tillgänglig på GitHub, i [niklasarvidsson78/anax-flat](https://github.com/niklasarvidsson78/anax-flat).
+Koden till denna sidan är även tillgänglig på GitHub, i [niklasarvidsson78/anax-flat](https://github.com/niklasarvidsson78/anax-flat) <br>
 [niklasarvidsson78/anax-flat-theme](https://github.com/niklasarvidsson78/anax-flat-theme).
 
-Denna sida använder *Anax Flat* som bas.
+Denna sida använder Anax Flat som bas.
 
 Denna sida är gjord av [Niklas Arvidsson](https://www.facebook.com/niklasarvidsson78) (niklasarvidsson78@hotmail.com).
 

@@ -215,22 +215,23 @@
         },
         {
             "name": "mos/anax-flat",
-            "version": "v1.1.4",
+            "version": "v1.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/anax-flat.git",
-                "reference": "f1f0e74700cf70c743a77174e3710b19484fe12e"
+                "reference": "8c763a9d0344475e1058ef345c48750077c3aac8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/anax-flat/zipball/f1f0e74700cf70c743a77174e3710b19484fe12e",
-                "reference": "f1f0e74700cf70c743a77174e3710b19484fe12e",
+                "url": "https://api.github.com/repos/canax/anax-flat/zipball/8c763a9d0344475e1058ef345c48750077c3aac8",
+                "reference": "8c763a9d0344475e1058ef345c48750077c3aac8",
                 "shasum": ""
             },
             "require": {
                 "mos/anax": "^2.5",
                 "mos/cimage": "^0.7",
                 "mos/ctextfilter": "^1.2",
+                "php": ">=5.6",
                 "symfony/yaml": "^3.1"
             },
             "suggest": {
@@ -261,20 +262,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-10-30T14:45:20+00:00"
+            "time": "2017-11-09T15:28:44+00:00"
         },
         {
             "name": "mos/cimage",
-            "version": "v0.7.19",
+            "version": "v0.7.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/cimage.git",
-                "reference": "f9604518e478a5097f29f991b61ba8ee36e7e5ba"
+                "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/cimage/zipball/f9604518e478a5097f29f991b61ba8ee36e7e5ba",
-                "reference": "f9604518e478a5097f29f991b61ba8ee36e7e5ba",
+                "url": "https://api.github.com/repos/mosbth/cimage/zipball/cd142c58806c8edb6164a12a20e120eb7f436dfb",
+                "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb",
                 "shasum": ""
             },
             "require": {
@@ -321,7 +322,7 @@
                 "image",
                 "imageprocessing"
             ],
-            "time": "2017-03-30T22:47:55+00:00"
+            "time": "2017-11-06T09:24:47+00:00"
         },
         {
             "name": "mos/ctextfilter",
@@ -388,16 +389,16 @@
         },
         {
             "name": "scrivo/highlight.php",
-            "version": "v9.0.0",
+            "version": "v9.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrivo/highlight.php.git",
-                "reference": "a905bf346a47f5fa40f33641b346c37f418d1242"
+                "reference": "df9f732349c637c5dbc938c2f534640845c0644f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/a905bf346a47f5fa40f33641b346c37f418d1242",
-                "reference": "a905bf346a47f5fa40f33641b346c37f418d1242",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/df9f732349c637c5dbc938c2f534640845c0644f",
+                "reference": "df9f732349c637c5dbc938c2f534640845c0644f",
                 "shasum": ""
             },
             "type": "library",
@@ -410,7 +411,24 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "Server side syntax highlighter that supports over 90 languages. It's a PHP port of highlight.js",
+            "authors": [
+                {
+                    "name": "Geert Bergman",
+                    "homepage": "http://www.scrivo.org/",
+                    "role": "Project Author"
+                },
+                {
+                    "name": "Vladimir Jimenez",
+                    "homepage": "https://allejo.io",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Martin Folkers",
+                    "homepage": "https://twobrain.io",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "Server side syntax highlighter that supports 176 languages. It's a PHP port of highlight.js",
             "keywords": [
                 "code",
                 "highlight",
@@ -418,20 +436,20 @@
                 "highlight.php",
                 "syntax"
             ],
-            "time": "2016-01-01T14:08:00+00:00"
+            "time": "2017-11-15T23:20:02+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.3.10",
+            "version": "v3.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "8c7bf1e7d5d6b05a690b715729cb4cd0c0a99c46"
+                "reference": "0938408c4faa518d95230deabb5f595bf0de31b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/8c7bf1e7d5d6b05a690b715729cb4cd0c0a99c46",
-                "reference": "8c7bf1e7d5d6b05a690b715729cb4cd0c0a99c46",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0938408c4faa518d95230deabb5f595bf0de31b9",
+                "reference": "0938408c4faa518d95230deabb5f595bf0de31b9",
                 "shasum": ""
             },
             "require": {
@@ -473,7 +491,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-10-05T14:43:42+00:00"
+            "time": "2017-11-10T18:26:04+00:00"
         }
     ],
     "packages-dev": [],
