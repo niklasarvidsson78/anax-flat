@@ -6,7 +6,7 @@
 return [
 
     "separator" => "------------------------------------------------",
-    
+
     "themes" => [
 
         "separator0" => "------------------------------------------------",
@@ -27,18 +27,32 @@ return [
             ]
         ],
 
+        "separator01" => "------------------------------------------------",
+
+        "vgrid"      => [
+            "title"      => "Vertical grid",
+            "class"      => "",
+            "stylesheets" => [
+                "css/vgrid.min.css"
+            ]
+        ],
+
         "separator1" => "------------------------------------------------",
 
         "light"     =>  [
             "title"      => "Very light theme, white, black and nuances of grey",
-            "class"      => "light",
-            "stylesheets" => []
+            "class"      => "",
+            "stylesheets" => [
+                "css/style.min.css"
+            ]
         ],
 
         "color"     => [
             "title"      => "Enhance the light theme by adding a tiny bit of color",
-            "class"      => "color",
-            "stylesheets" => []
+            "class"      => "",
+            "stylesheets" => [
+                "css/style.min.css"
+            ]
         ],
 
         "dark"      => [

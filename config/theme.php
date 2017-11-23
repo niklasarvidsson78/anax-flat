@@ -41,7 +41,7 @@ return [
      * Add default views to always include.
      */
     "views" => [
-        [
+        /*[
             "region" => "header",
             "template" => "default/image",
             "data" => [
@@ -50,7 +50,7 @@ return [
                 "alt" => "Logo",
             ],
             "sort" => 1
-        ],
+        ],*/
         [
             "region" => "header",
             "template" => "default/header",
@@ -94,7 +94,7 @@ return [
                         //"contentRoute" => "block/byline",
                     ],
                     [
-                        "contentRoute" => "block/footer-col-2",
+                        "contentRoute" => "block/footer-col-3",
                     ]
                 ]
             ],
