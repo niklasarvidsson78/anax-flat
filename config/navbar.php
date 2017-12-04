@@ -24,25 +24,43 @@ return [
             "About" => [
                 "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan")
+                "title" => t("Om sidan"),
             ],
+
             "Report" => [
                 "text"  => t("Rapporter"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Rapporter"),
-                "mark-if-parent" => true,
             ],
+
+            "Analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("analysis"),
+            ],
+
+            "Teman" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman"),
+            ],
+
+            "Theme-selector" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("theme-selector"),
+            ],
+
             "Grid" => [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("Grid"),
-                "mark-if-parent" => true,
             ],
+
             "Typography" => [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography"),
-                "mark-if-parent" => true,
             ],
         ],
     ],
@@ -64,32 +82,50 @@ return [
             "Index" => [
                 "text"  => t("Hem"),
                 "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Reports from kmom assignments"),
+                "title" => t("Hem"),
                 "mark-if-parent" => true,
             ],
 
             "About" => [
                 "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om sidan"),
             ],
 
             "Report" => [
                 "text"  => t("Rapporter"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("About this website")
+                "title" => t("Rapporter"),
             ],
+
+            "Analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("analysis"),
+            ],
+
+            "Theme-selector" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("theme-selector"),
+            ],
+
+            "Teman" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman"),
+            ],
+
             "Grid" => [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid"),
                 "title" => t("Grid"),
-                "mark-if-parent" => true,
             ],
+
             "Typography" => [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography"),
-                "mark-if-parent" => true,
             ],
         ],
     ],

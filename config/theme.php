@@ -63,8 +63,9 @@ return [
                 "siteLogoAlt"   => null, //"Anax Logo",
                 "siteTitle"     => null, //"Anax PHP framework",
                 "siteSlogan"    => null, //"Reusable modules for web development"
+                "sort" => 2
             ],
-            "sort" => 2
+
         ],
 
         [
