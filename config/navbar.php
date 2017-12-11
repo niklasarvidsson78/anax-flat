@@ -12,59 +12,84 @@ return [
         "class" => "rm-default rm-desktop",
 
         // Here comes the menu structure
-        "items" => [
 
-            "Index" => [
-                "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Hem"),
-                "mark-if-parent" => true,
+
+"items" => [
+    "Index" => [
+        "text"  => t("Hem"),
+        "url"   => $this->di->get("url")->create("index"),
+        "title" => t("Hem"),
+        "mark-if-parent" => true,
+    ],
+
+    "About" => [
+        "text"  => t("Om sidan"),
+        "url"   => $this->di->get("url")->create("about"),
+        "title" => t("Om sidan"),
+    ],
+
+            "Arbeten" => [
+               "text"  =>"Arbeten",
+               "url"   => $this->di->get("url")->create("#"),
+               "title" => "Arbeten",
+               "submenu" => [
+                   "items" => [
+                       "analyser" => [
+                           "text"  =>"Analyser",
+                           "url"   => $this->di->get("url")->create("analysis"),
+                           "title" => "Analyser"
+                       ],
+                       "Report" => [
+                           "text"  => t("Rapporter"),
+                           "url"   => $this->di->get("url")->create("report"),
+                           "title" => t("Rapporter"),
+                       ],
+                   ],
+               ],
+            ],
+            "Blogg" => [
+            "text"  => t("Blogg"),
+            "url"   => $this->di->get("url")->create("blogg"),
+            "title" => t("Blogg"),
+            "mark-if-parent" => true,
             ],
 
-            "About" => [
-                "text"  => t("Om sidan"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan"),
+            "Bilder" => [
+            "text"  => t("Bilder"),
+            "url"   => $this->di->get("url")->create("images"),
+            "title" => t("Bilder")
             ],
 
-            "Report" => [
-                "text"  => t("Rapporter"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Rapporter"),
-            ],
 
-            "Analysis" => [
-                "text"  => t("Analys"),
-                "url"   => $this->di->get("url")->create("analysis"),
-                "title" => t("analysis"),
-            ],
 
             "Teman" => [
-                "text"  => t("Teman"),
-                "url"   => $this->di->get("url")->create("theme"),
-                "title" => t("Teman"),
-            ],
+               "text"  =>"Teman",
+               "url"   => $this->di->get("url")->create("#"),
+               "title" => "Assignements",
+               "submenu" => [
+                   "items" => [
+                       "Theme-selector" => [
+                           "text"  => t("Temaväljare"),
+                           "url"   => $this->di->get("url")->create("theme-selector"),
+                           "title" => t("theme-selector"),
+                       ],
 
-            "Theme-selector" => [
-                "text"  => t("Temaväljare"),
-                "url"   => $this->di->get("url")->create("theme-selector"),
-                "title" => t("theme-selector"),
-            ],
+                       "Grid" => [
+                           "text"  => t("Grid"),
+                           "url"   => $this->di->get("url")->create("grid"),
+                           "title" => t("Grid"),
+                       ],
 
-            "Grid" => [
-                "text"  => t("Grid"),
-                "url"   => $this->di->get("url")->create("grid"),
-                "title" => t("Grid"),
-            ],
-
-            "Typography" => [
-                "text"  => t("Typography"),
-                "url"   => $this->di->get("url")->create("typography"),
-                "title" => t("Typography"),
+                       "Typography" => [
+                           "text"  => t("Typography"),
+                           "url"   => $this->di->get("url")->create("typography"),
+                           "title" => t("Typography"),
+                       ],
+                   ],
+               ],
             ],
         ],
     ],
-
 
 
 
@@ -77,8 +102,8 @@ return [
         "class" => "rm-default rm-mobile",
 
         // Here comes the menu structure
-        "items" => [
 
+        "items" => [
             "Index" => [
                 "text"  => t("Hem"),
                 "url"   => $this->di->get("url")->create("index"),
@@ -92,44 +117,68 @@ return [
                 "title" => t("Om sidan"),
             ],
 
-            "Report" => [
-                "text"  => t("Rapporter"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Rapporter"),
-            ],
+                    "Arbeten" => [
+                       "text"  =>"Arbeten",
+                       "url"   => $this->di->get("url")->create("#"),
+                       "title" => "Arbeten",
+                       "submenu" => [
+                           "items" => [
+                               "analyser" => [
+                                   "text"  =>"Analyser",
+                                   "url"   => $this->di->get("url")->create("analysis"),
+                                   "title" => "Analyser"
+                               ],
+                               "Report" => [
+                                   "text"  => t("Rapporter"),
+                                   "url"   => $this->di->get("url")->create("report"),
+                                   "title" => t("Rapporter"),
+                               ],
+                           ],
+                       ],
+                    ],
+                    "Blogg" => [
+                    "text"  => t("Blogg"),
+                    "url"   => $this->di->get("url")->create("blogg"),
+                    "title" => t("Blogg"),
+                    "mark-if-parent" => true,
+                    ],
 
-            "Analysis" => [
-                "text"  => t("Analys"),
-                "url"   => $this->di->get("url")->create("analysis"),
-                "title" => t("analysis"),
-            ],
+                    "Bilder" => [
+                    "text"  => t("Bilder"),
+                    "url"   => $this->di->get("url")->create("images"),
+                    "title" => t("Bilder")
+                    ],
 
-            "Theme-selector" => [
-                "text"  => t("Temaväljare"),
-                "url"   => $this->di->get("url")->create("theme-selector"),
-                "title" => t("theme-selector"),
-            ],
 
-            "Teman" => [
-                "text"  => t("Teman"),
-                "url"   => $this->di->get("url")->create("theme"),
-                "title" => t("Teman"),
-            ],
 
-            "Grid" => [
-                "text"  => t("Grid"),
-                "url"   => $this->di->get("url")->create("grid"),
-                "title" => t("Grid"),
-            ],
+                    "Teman" => [
+                       "text"  =>"Teman",
+                       "url"   => $this->di->get("url")->create("#"),
+                       "title" => "Assignements",
+                       "submenu" => [
+                           "items" => [
+                               "Theme-selector" => [
+                                   "text"  => t("Temaväljare"),
+                                   "url"   => $this->di->get("url")->create("theme-selector"),
+                                   "title" => t("theme-selector"),
+                               ],
 
-            "Typography" => [
-                "text"  => t("Typography"),
-                "url"   => $this->di->get("url")->create("typography"),
-                "title" => t("Typography"),
-            ],
-        ],
-    ],
+                               "Grid" => [
+                                   "text"  => t("Grid"),
+                                   "url"   => $this->di->get("url")->create("grid"),
+                                   "title" => t("Grid"),
+                               ],
 
+                               "Typography" => [
+                                   "text"  => t("Typography"),
+                                   "url"   => $this->di->get("url")->create("typography"),
+                                   "title" => t("Typography"),
+                               ],
+                           ],
+                       ],
+                    ],
+                ],
+            ],
 
     /**
      * Callback tracing the current selected menu item base on scriptname

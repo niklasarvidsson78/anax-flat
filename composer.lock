@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6e86f0d67ec40429b3c857354b990e5",
+    "content-hash": "3be7e3599279cbfa1626420a4cde1dd5",
     "packages": [
         {
             "name": "ezyang/htmlpurifier",
@@ -161,16 +161,16 @@
         },
         {
             "name": "mos/anax",
-            "version": "v2.5.28",
+            "version": "v2.5.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/anax.git",
-                "reference": "1732a97185efac8b5d2e185229a1a7270f6f153e"
+                "reference": "db573fa96922f866cc10632e84235894fc68ad89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/anax/zipball/1732a97185efac8b5d2e185229a1a7270f6f153e",
-                "reference": "1732a97185efac8b5d2e185229a1a7270f6f153e",
+                "url": "https://api.github.com/repos/mosbth/anax/zipball/db573fa96922f866cc10632e84235894fc68ad89",
+                "reference": "db573fa96922f866cc10632e84235894fc68ad89",
                 "shasum": ""
             },
             "require": {
@@ -211,20 +211,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-10-18T15:21:34+00:00"
+            "time": "2017-12-04T10:35:44+00:00"
         },
         {
             "name": "mos/anax-flat",
-            "version": "v1.1.11",
+            "version": "v1.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/anax-flat.git",
-                "reference": "8c763a9d0344475e1058ef345c48750077c3aac8"
+                "reference": "74a2fd261fd58389a7ceb9ed06482eb83d5762b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/anax-flat/zipball/8c763a9d0344475e1058ef345c48750077c3aac8",
-                "reference": "8c763a9d0344475e1058ef345c48750077c3aac8",
+                "url": "https://api.github.com/repos/canax/anax-flat/zipball/74a2fd261fd58389a7ceb9ed06482eb83d5762b6",
+                "reference": "74a2fd261fd58389a7ceb9ed06482eb83d5762b6",
                 "shasum": ""
             },
             "require": {
@@ -262,7 +262,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-11-09T15:28:44+00:00"
+            "time": "2017-11-28T16:18:49+00:00"
         },
         {
             "name": "mos/cimage",
@@ -440,23 +440,26 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.3.13",
+            "version": "v3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "0938408c4faa518d95230deabb5f595bf0de31b9"
+                "reference": "f6a99b95b338799645fe9f7880d7d4ca1bf79cc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/0938408c4faa518d95230deabb5f595bf0de31b9",
-                "reference": "0938408c4faa518d95230deabb5f595bf0de31b9",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/f6a99b95b338799645fe9f7880d7d4ca1bf79cc1",
+                "reference": "f6a99b95b338799645fe9f7880d7d4ca1bf79cc1",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5.9|>=7.0.8"
             },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
             "require-dev": {
-                "symfony/console": "~2.8|~3.0"
+                "symfony/console": "~3.4|~4.0"
             },
             "suggest": {
                 "symfony/console": "For validating YAML files using the lint command"
@@ -464,7 +467,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -491,7 +494,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-10T18:26:04+00:00"
+            "time": "2017-12-04T18:15:22+00:00"
         }
     ],
     "packages-dev": [],

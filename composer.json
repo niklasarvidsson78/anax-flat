@@ -1,5 +1,6 @@
 {
     "require": {
-        "mos/anax-flat": "^1.1"
+        "mos/anax-flat": "^1.1",
+        "mos/cimage": "^0.7.20"
     }
 }
